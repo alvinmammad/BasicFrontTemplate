@@ -1,0 +1,741 @@
+body{
+	margin: 0px;
+	font-family: 'Lato', sans-serif;
+	
+}
+#blackheader{
+	width: 100%;
+	background-color: black;
+}
+.Blackheader{
+	width: 100%;
+	background-color: black;
+}
+.number1, .certificate, .phone{
+	margin: 0px;
+	color: green;
+	display: inline-block;
+	width: 300px;
+	position: relative;
+}
+.number1 {
+	left: 70px
+}
+.certificate{
+	left: 160px;
+}
+.phone{
+	left: 480px;
+}
+
+#nav-bar{
+	width: 100%;
+	height: 100px;	
+}
+.reactivity{
+	
+	position: absolute;
+	width: 150px;
+	height: 100px;
+	float: left;
+}
+.reactivity img{
+	top: 10px;	
+	position: absolute;
+	left: 50px;
+	
+	display:inline-block;
+	
+}
+.words{
+	width: 800px;
+	height: 100px;
+	position: absolute;
+	/*margin: 40px auto;*/
+	float: left;
+	left: 300px;
+	
+}
+.words ul{
+	
+	display: inline-block;
+	position: absolute;
+	margin-top: 10px;
+	width: 600px;
+}
+.words ul li{
+	position: relative;
+	margin-top: 14px;
+	display: inline-block;
+	padding-right:  10px;
+	margin-right: 15px;
+	font-size: 18px;
+	
+}
+
+.quotebutton button{
+	background-color: yellow;
+	color: black;
+	position: relative;
+	float: right;
+	padding-right: 10px;
+	margin-right: 340px;
+	margin-top: 24px;
+	font-family: 'Lato', sans-serif;
+	border: none;
+	cursor: pointer;
+}
+
+.quotebutton button:hover {
+	background-color: black;
+	color: white;
+}
+#slide{
+	width: 100%;
+	height: 722px;
+	background: url(../image/headphones.jpg);
+	background-size: cover;
+}
+
+
+.headphones{
+	
+	width:100%;
+	height: 700px;
+	box-sizing: border-box;
+
+}
+.headphones h1{
+	position: relative;
+	padding: 20px 100px;
+	font-size: 20px;
+}
+.headphones p{
+	width: 440px;
+	height: 220px;
+	position: relative;
+	padding: 20px 140px;
+	display: inline-block;
+	font-size: 21px;
+}
+#preview{
+	width: 100%;
+	height: 536px;	
+	position: relative;
+}
+.video{
+	/*margin-left: 30px;
+	margin-top: 160px;*/
+	width: 633px;
+	height: 452px;
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	margin:0;
+}
+.video1 img{
+	width: 631px;
+	height: 453px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	opacity: 0.9;	
+	overflow: hidden;
+	z-index: 2;
+
+	}
+
+.video:hover img{
+	transform: scale(1.5);
+	transition: all 2s  ease ;
+
+}
+
+
+.video1{
+	position: absolute;
+}
+.presentation{
+	top: calc(618px/2);
+	left: calc(450px/2);
+	position: relative;
+}
+.presentation h1{
+	background-color: none;
+	color: white;
+}
+ .btn{
+	position: absolute;
+	top: 214px;
+	left: 284px;
+	/*transform: translate(-50%, -50%);*/
+	/*background-color: #d5d7e8;*/
+	cursor: pointer;
+	text-align: center;
+	z-index: 2;
+	display: inline-block;
+}
+.btn img{
+	height: 50px;
+
+}
+
+.experience h1{
+	position: relative;
+	top: -341px;
+	left: 814px;
+}
+.experience h5{
+	position:relative;
+	float: right;
+	right: 352px;
+	top: -395px;
+	opacity: 0.3;
+}
+.experience p{
+	position: relative;
+	width: 475px;
+	height: 75px;
+	float: right;
+	right: -2px;
+	bottom: 354px;
+	font-size: 20px;
+	opacity: 0.3;
+}
+.getquote{
+	background-color: black;
+	color: white;
+	position: relative;
+	float: right;
+	left: 148px;
+	bottom: 230px;
+	transition-duration: 0.2s;
+	font-family: 'Lato', sans-serif;
+	border: none;
+	font-size: 21px;
+	cursor: pointer;
+}
+.getquote:hover {
+	background-color: yellow;
+	color: black;
+}
+.getbrochure{
+	background-color: yellow;
+	color: black;
+	position: relative;
+	float: right;
+	left: 595px;
+	bottom: 230px;
+	transition-duration: 0.2s;
+	font-family: 'Lato', sans-serif;
+	border: none;
+	box-sizing: border-box;
+	background-size: 20px;
+	font-size: 21px;
+	text-align: center;
+	cursor: pointer;
+	display: inline-block;
+}
+.getbrochure:hover {
+	background-color: black;
+	color: white;
+}
+.experience h4{
+	position: relative;
+	float: right;
+	left: 349px;
+	bottom: 251px;
+}
+
+#fourbox{
+	width: 100%;
+	height: 435px;
+	background: url(../image/parallax5.jpg);
+	background-size: cover;
+	position: relative;
+
+}
+
+.parallax .years {
+	width: 220px;
+	height: 230px;
+	display: inline-block;
+	position: relative;
+	padding: 0;
+	background-color: rgba(255,255,255,.5);
+	float: left;
+	left: -23px;
+	top: 96px;
+	font-size: 23px;
+	text-align: center;
+	line-height: 85px;
+	
+
+}
+
+.parallax .worldwide {
+	width: 220px;
+	height: 230px;
+	display: inline-block;
+	position: relative;
+	box-sizing: content-box;
+	background-color: rgba(255,255,255,.5);
+	left: 113px;
+	top: 97px;
+	font-size: 24px;
+	text-align: center;
+	line-height: 85px;
+}
+
+.parallax .agency {
+	width: 220px;
+	height: 230px;
+	display: inline-block;
+	position: relative;
+	background-color: rgba(255,255,255,.5);
+	left: 703px;
+	top: -133px;
+	font-size: 24px;
+	text-align: center;
+	line-height: 85px;
+
+}
+
+.parallax .succesful {
+	width: 220px;
+	height: 230px;
+	display: inline-block;
+	position: relative;
+	background-color: rgba(255,255,255,.5);
+	float: right;
+	right: 20px;
+	top: -132px;
+	font-size: 24px;
+	text-align: center;
+	line-height: 85px;
+}
+
+
+#projects{
+	width: 100%;
+	height: 580px;
+	position: relative;
+	
+}
+
+.ourprojects h1{
+	display: inline-block;
+	top: 0px;
+	left: 50px;
+	position: relative;
+	font-size: 47px;
+}
+
+.newoffice img {
+	width: 450px;
+	height: 370px;
+	background-repeat: no-repeat;
+	position: relative;
+	display: inline-block;
+}
+
+.stationery img {
+	width: 225px;
+	height: 185px;
+	background-repeat: no-repeat;
+	position: relative;
+	display: inline-block;
+	float: right;
+	right: 674px;
+	bottom: 373px;
+}
+
+.bts img {
+	width: 225px;
+	height: 186px;
+	background-repeat: no-repeat;
+	position: relative;
+	display: inline-block;
+	float: right;
+	right: 449px;
+	bottom: 189px;
+}
+
+.istep img {
+	width: 225px;
+	height: 370px;
+	background-repeat: no-repeat;
+	position: relative;
+	display: inline-block;
+	float: right;
+	right: -1px;
+	bottom: 373px;
+
+}
+.paperworks img {
+	width: 449px;
+	height: 370px;
+	background-repeat: no-repeat;
+	position: relative;
+	display: inline-block;
+	float: left;
+	left: 900px;
+	bottom: 373px;
+}
+
+#whychooseus {
+	width: 100%;
+	height: 527px;
+	position: relative;
+}
+
+.choose h1 {
+	float: left;
+	right: 377px;
+	display: inline-block;
+	position: relative;
+	font-size: 32px;
+}
+
+.dove p {
+	width: 485px;
+	height: 190px;
+	float: left;
+	display: inline-block;
+	position: relative;
+	left: 71px;
+	bottom: 239px;
+	opacity: 0.4;
+}
+
+.view {
+	background-color: white;
+	color: black;
+	width: 210px;
+	height: 50px;
+	float: left;
+	position: relative;
+	display: inline-block;
+	box-sizing: border-box;
+	right: 414px;
+	bottom: 63px;
+	text-align: center;
+	cursor: pointer;
+	transition-duration: 0.4s;
+	border:2px solid rgb(38, 32, 32);
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+}
+.view:hover {
+	background-color: yellow;
+	color: black
+}
+
+.wave img {
+	background-repeat: no-repeat;
+	position: relative;
+	display: inline-block;
+	float: right;
+	right: 80px;
+	bottom: 287px;
+}
+
+#professionals {
+	width: 100%;
+	height: 640px;
+	background: url(../image/birds.jpg);
+	background-repeat: no-repeat;
+
+}
+
+.ourprof h1 {
+	top: 50px;
+	left: 70px;
+	position: relative;
+	display: inline-block;
+}
+
+.white1 {
+	width: 280px;
+	height: 380px;
+	background:white;
+	display: inline-block;
+	position: relative;
+	float: left;
+	left: 70px;
+	top: 115px;
+
+}
+
+.white2 {
+	width: 280px;
+	height: 380px;
+	background:white;
+	display: inline-block;
+	float: left;
+	position: relative;
+	left: 100px;
+	top: 115px;
+
+}
+
+.white3 {
+	width: 280px;
+	height: 380px;
+	background:white;
+	float: right;
+	position: relative;
+	display: inline-block;
+	right: 74px;
+	bottom: -47px;
+
+
+}
+
+.white4 {
+	width: 280px;
+	height: 380px;
+	background:white;
+	float: right;
+	position: relative;
+	display: inline-block;
+	right: 101px;
+	bottom:-47px;
+}
+
+.white1 .samwilson {
+	position: absolute;
+	left: 87px;
+	top: 57px;
+}
+}
+.white2 .neddery {
+	position: relative;
+	left: 87px;
+	top: 57px;
+
+}
+
+.white3 .peter {
+	position: absolute;
+	left: 87px;
+	top: 57px;
+
+}
+
+.white4 .mary {
+	position: absolute;
+	left: 87px;
+	top: 57px;
+
+}
+
+.samwilson p {
+	position: absolute;
+	left: 34px;
+	top: 114px;
+	box-sizing: border-box;
+
+}
+
+.neddery p {
+	position: absolute;
+	left: 34px;
+	top: 114px;
+	box-sizing: border-box;
+
+}
+
+.peter p {
+	position: absolute;
+	left: 40px;
+	top: 114px;
+
+}
+
+.mary p {
+	position: absolute;
+	left: 37px;
+	top: 114px;
+
+}
+
+.samwilson h5{
+	position: absolute;
+	left: 20px;
+	top: 160px;
+}
+.neddery h5 {
+	position: absolute;
+	left: 20px;
+	top: 165px;
+}
+
+.peter h5 {
+	position: absolute;
+	left: 40px;
+	top: 156px;
+}
+
+.mary h5 {
+	position: absolute;
+	left: 37px;
+	top: 158px;
+}
+
+#clients {
+	width: 100%;
+	height: 600px;
+	position: relative;
+}
+
+
+.ourclients h1 {
+	font-size: 50px;
+}
+.rectangle .monster {
+	width: 337px;
+	height: 246px;
+	position: relative;
+	display: inline-block;
+	float: left;
+	left: 40px;
+	top: 90px;
+
+}
+
+.rectangle .aqua {
+	width: 337px;
+	height: 246px;
+	position: relative;
+	display: inline-block;
+	float: left;
+	background-color:rgba(255,255,255,.5);
+	left: 81px;
+	top: 108px;
+
+
+}
+
+.rectangle .domino {
+	width: 337px;
+	height: 246px;
+	position: relative;
+	display: inline-block;
+	float: left;
+	right: 587px;
+	top: 310px;
+
+}
+
+.rectangle .strong {
+	width: 337px;
+	height: 246px;
+	position: relative;
+	display: inline-block;
+	float: left;
+	right: 565px;
+	top: 291px;
+
+}
+
+.creativity img {
+	width: 773px;
+	height: 426px;
+	float: right;
+	position: relative;
+	bottom: 155px;
+	right: 2px;
+}
+
+.samueljohnson img {
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	position: relative;
+	display: inline-block;
+	width: 133px;
+	height: 118px;
+	float: right;
+	left: 451px;
+	bottom: 118px;
+}
+
+.samueljohnson p {
+	color: white;
+	width: 482px;
+	height: 81px;
+	float: right;
+	left: 662px;
+	top: -90px;
+	position: relative;
+	display: inline-block;
+	box-sizing: border-box;
+	font-size: 17px;
+}
+
+.samueljohnson h3 {
+	color: white;
+	float: right;
+	position: relative;
+	display: inline-block;
+	box-sizing: border-box;
+	left: 390px;
+	bottom: 104px;
+
+}
+
+.samueljohnson h4 {
+	color: yellow;
+	float: right;
+	position: relative;
+	display: inline-block;
+	left: 680px;
+	bottom: 105px;
+}
+
+
+#news {
+	width: 100%;
+	height: 465px;
+	position: relative;
+}
+
+.News h1 {
+	position: relative;
+	top: 20px;
+	left: 50px;
+	font-size: 43px;
+
+}
+
+.road img {
+	width: 590px;
+	height: 170px;
+	position: relative;
+	display: inline-block;
+	left: 49px;
+
+}
+
+.ruler img {
+	width: 282px;
+	height: 171px;
+	float: right;
+	position: relative;
+	display: inline-block;
+	right: 392px;
+	bottom: 174px;
+}
+
+.digimark img {
+	width: 282px;
+	height: 172px;
+	float: right;
+	position: relative;
+	display: inline-block;
+	right: -208px;
+	bottom: 175px;
+}
+
